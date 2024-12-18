@@ -13,13 +13,13 @@ A simple and lightweight Node.js library for interacting with the MeetPay API. T
 
 Install the package using npm:
 ```bash
-npm install meetpay-node
+npm install meetpay-node-api
 ```
 ## Usage
 
 Initialize the Client
 ```bash
-const MeetPayClient = require('meetpay-node');
+const MeetPayClient = require('meetpay-node-api');
 
 // Initialize the MeetPayClient with your API key
 const client = new MeetPayClient('your-api-key');
